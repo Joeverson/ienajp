@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ienajp</string>
+    <string name="btn_ouvir">Ouvir PodCasts</string>
+    <string name="btn_noticias">Noticias</string>
+</resources>
