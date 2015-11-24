@@ -36,14 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
-            // 1. Instantiate an AlertDialog.Builder with its constructor
-            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 
-            // 2. Chain together various setter methods to set the dialog characteristics
-            builder.setMessage(R.string.btn_noticias).setTitle(R.string.btn_noticias);
-
-            // 3. Get the AlertDialog from create()
-            AlertDialog dialog = builder.create();
         }
     }
 
