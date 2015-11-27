@@ -2,4 +2,7 @@
     <string name="app_name">ienajp</string>
     <string name="btn_ouvir">Ouvir PodCasts</string>
     <string name="btn_noticias">Noticias</string>
+    <string name="action_podcast">Podcast</string>
+    <string name="action_notice">Noticias</string>
+    <string name="title_activity_notices">NoticesActivity</string>
 </resources>
