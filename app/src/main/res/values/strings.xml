@@ -5,4 +5,8 @@
     <string name="action_podcast">Podcast</string>
     <string name="action_notice">Noticias</string>
     <string name="title_activity_notices">NoticesActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_init">InitActivity</string>
+    <string name="title_activity_init2">Init2Activity</string>
+    <string name="title_activity_unit">UnitActivity</string>
 </resources>

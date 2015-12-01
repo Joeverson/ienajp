@@ -28,8 +28,8 @@ public class splash extends AppCompatActivity implements Runnable {
          * me retornar um json.
          * **/
         try{
-            String get = new ClientNews().execute("http://www.android.com/").get();
-            Log.w("APP", get);
+            String get = new ClientNews().execute("http://www.google.com").get();
+            //Log.w("APP", get);
         }catch(Exception e){
             Log.e("APP", "error splash -->> "+e.getMessage());
         }
@@ -43,7 +43,7 @@ public class splash extends AppCompatActivity implements Runnable {
 
     //depois da chamada da handler ele execulta essa thread e chama a outra activity e fecha essa tela.
     public void run(){
-        startActivity(new Intent(this, MainActivity.class));
+        startActivity(new Intent(this, UnitActivity.class));
         finish();
     }
 }

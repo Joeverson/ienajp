@@ -5,26 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_notices"
+    tools:showIn="@layout/activity_unit"
     android:orientation="vertical"
     tools:context="br.dup.ienajp.NoticesActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="3"
+        android:id="@+id/imageHome"
+        android:layout_gravity="center_horizontal" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="1"
-        android:text="@string/action_podcast"
-        android:id="@+id/textPodcast"
-        android:textSize="51sp"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal" />
-
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:id="@+id/listNotices"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large hor"
+        android:layout_margin="10dp"
+        android:id="@+id/textDescription"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="6" />
-
-
+        android:layout_weight="1.5" />
 </LinearLayout>
